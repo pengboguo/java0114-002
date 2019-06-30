@@ -12,6 +12,9 @@ public interface UserDao extends JpaRepository<User,Long> {
     public void demo3(String name);
 	
 	//开发者1新增方法
-	public voiv demo1();
+	public void demo1();
+	
+	//开发者1新增方法demo5
+	public void demo5();
 	
 }
